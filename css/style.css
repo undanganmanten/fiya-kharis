@@ -356,7 +356,7 @@ body{
 
 .wrapper{
   width: 414px;
-  background-color: #32302d !important;
+  background-color: #2e2c29 !important;
   color: black;
 }
 
@@ -509,7 +509,7 @@ img{
 
 .cover-top{
   position: absolute;
-  /* top: -20px; */
+  top: 20px;
   height: 100vh;
   /* background-color: #8cb087; */
 }
@@ -540,11 +540,22 @@ img{
   margin-top: -70px;
 }
 
+.awan{
+  width: 414px;
+  margin-top: -200px;
+  /* z-index: 100; */
+}
+
+.awan img{
+  width: 414px;
+}
+
 .arrum-section{
-  margin: 50px 0;
+  padding: 50px 0;
   width: 414px;
   height: max-content;
-  background-color: #32302d;
+  background: linear-gradient(100deg, rgba(43,41,42,1) 0%, rgba(55,54,55,1) 50%, rgba(62,62,62,1) 100%);
+  margin-top: -10px;
 }
 
 .content-isra{ 
@@ -559,7 +570,7 @@ img{
 
 .content-isra p{
   padding: 15px 15px;
-  line-height: 1px;
+  line-height: 1px;  
 }
 
 .content-isra i{
@@ -576,6 +587,7 @@ img{
 
 .content-isra img{
   width: 80px;
+  z-index: 10;
 }
 
 .couple-photo{
@@ -585,6 +597,7 @@ img{
 .couple-photo img{
   width: 414px;
   height: auto;
+  /* margin-top: -100px; */
 }
 
 .couple-name{
@@ -744,7 +757,7 @@ img{
 
 #counting .cover-counting{
   position: absolute;
-  top: 0px;
+  top: -180px;
   width: 414px;
   height: max-content;
 }
@@ -1374,7 +1387,7 @@ input[type="radio"] {
 }
 
 .contact-us{
-  background-color: #91a38b;
+  background: linear-gradient(100deg, rgba(43,41,42,1) 0%, rgba(55,54,55,1) 50%, rgba(62,62,62,1) 100%);
   /* background-color: #ff1414; */
   position: relative;
   padding: 30px 20px;
@@ -1419,7 +1432,7 @@ input[type="radio"] {
 }
 
 .box button:hover{
-  background: #ffffff ;
+  background: #0e0e0e ;
   color: #fff;
   transition: .5s;
 }
@@ -1513,7 +1526,7 @@ input[type="radio"] {
 }
 
 #input_button:hover{
-  background-color: #ffffff;
+  background-color: #111111;
   color:#fff;
 }
 
@@ -1539,7 +1552,7 @@ input[type="radio"] {
 }
 
 .task_container:hover{
-  background-color: #8cb087;
+  background-color: #262626;
 }
 
 #task_data{
