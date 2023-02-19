@@ -393,7 +393,6 @@ body{
   height: 100vh;
 }
 
-
 .title{
   height: 100vh;
   top: 20vh;
@@ -445,11 +444,11 @@ body{
 .title .nama-undangan{
   display: flex;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
 }
 
 .title .nama-undangan h3{
-  text-align: left;
+  text-align: center;
 }
 
 .title h3{
@@ -538,16 +537,6 @@ img{
 .cover-top img{
   width: 414px;
   margin-top: -70px;
-}
-
-.awan{
-  width: 414px;
-  margin-top: -200px;
-  /* z-index: 100; */
-}
-
-.awan img{
-  width: 414px;
 }
 
 .arrum-section{
@@ -1641,9 +1630,7 @@ input[type="radio"] {
   }
 
   .title-sub{
-    position: absolute;
-    top: 300px;
-    left: 20px;
+    width: 100vw;
   }
 
   .title .title-nama{
@@ -1658,6 +1645,7 @@ input[type="radio"] {
 
   .cover-top img{
     width: 100vw;
+    margin-top: 70px;
   }
 
   .content-top{

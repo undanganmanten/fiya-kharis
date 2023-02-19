@@ -110,7 +110,7 @@ var firebaseConfig = {
   
     if(input_box.value.length != 0 && input_date.value.length != 0){
       // our boxes have data and we take database
-      var key = firebase.database().ref().child("diska").push().key;
+      var key = firebase.database().ref().child("fiya").push().key;
       var task = {
         title: input_box.value,
         date: input_date.value,
@@ -118,7 +118,7 @@ var firebaseConfig = {
       };
   
       var updates = {};
-      updates["/diska/" + key] = task;
+      updates["/fiya/" + key] = task;
       firebase.database().ref().update(updates);
       create_unfinished_task();
       swal("Pesan telah terkirim", "Silakan cek pesan anda di kolom yang sudah ada", "success");
@@ -133,7 +133,7 @@ function create_unfinished_task(){
     unfinished_task_container.innerHTML = "";
   
     task_array = [];
-    firebase.database().ref("diska").once('value', function(snapshot) {
+    firebase.database().ref("fiya").once('value', function(snapshot) {
       snapshot.forEach(function(childSnapshot) {
         var childKey = childSnapshot.key;
         var childData = childSnapshot.val();
