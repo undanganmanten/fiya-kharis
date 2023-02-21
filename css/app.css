@@ -9,9 +9,10 @@
 }
 
 body {
-    overflow: overlay;
+    /* overflow: overlay; */
     font-family: 'Josefin Sans', sans-serif;
     padding: 0px !important;
+    overflow: hidden;
 }
 
 *::-webkit-scrollbar {
