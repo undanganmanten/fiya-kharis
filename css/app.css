@@ -9,10 +9,10 @@
 }
 
 body {
-    /* overflow: overlay; */
+    overflow: overlay;
     font-family: 'Josefin Sans', sans-serif;
     padding: 0px !important;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 *::-webkit-scrollbar {
@@ -431,7 +431,7 @@ body {
       object-fit: cover;
     }
 
-    .swiper, .swiper2 {
+    .swiper{
       width: 100%;
       height: 300px;
       margin-left: auto;
